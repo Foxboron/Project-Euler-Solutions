@@ -2,7 +2,7 @@
 
 num = 0
 chain = []
-for n in range(1, 14):
+for n in range(1, 1000001):
     a = n
     l = []
     while True:
