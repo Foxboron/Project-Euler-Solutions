@@ -7,7 +7,7 @@ def main():
         #print i
         if i % 3 == 0:
             numlist.append(i)
-        if i % 5 == 0:
+        elif i % 5 == 0:
             numlist.append(i)
     print "%s" % (sum(numlist))
 
