@@ -15,4 +15,4 @@ for i in range(0, len(numbers) - 4):
 
     if product > highest_value:
         highest_value = product
-
+print highest_value
