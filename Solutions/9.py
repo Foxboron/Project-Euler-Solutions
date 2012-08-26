@@ -9,9 +9,6 @@ def main():
             c = sqrt(c)
             if pow(a,2) + pow(b,2) == pow(c,2) and a + b + c == n:
                 print a*b*c
-                print a
-                print b
-                print c
                 break
 
 if __name__ == '__main__':
